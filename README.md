@@ -41,6 +41,20 @@ Theme:
 
 * `zenburn` theme is used.
 
+WARNING. If you are using version 24.*, substitute line
+
+```
+(add-to-list 'load-path "~/.emacs.d/themes/")
+```
+
+with
+
+```
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+```
+
+inside file `.emacs`.
+
 Modes:
 
 * `php-mode`
