@@ -34,8 +34,9 @@ Editing:
 * `autopair.el` to automatically close open parenthesis. Matching parenthesis highlighted.
 * Automatically indenting at newline. Indenting with spaces instead of tabs.
 * Showing line numbers at startup.
-* `cua-mode` to enable common Ctrl+C, Ctrl+V, Ctrl+X, Ctrl+Z shortcuts, and to have backspace delete selected region.
+* `cua-mode` to enable common Ctrl+C, Ctrl+V, Ctrl+X, Ctrl+Z shortcuts (using the system clipboard), and to have backspace delete selected region.
 * Smart beginning of line: `home` key jumps to the first non-white character. If point is already there, jump to the actual beginning of line.
+* Smart current line comment with shortcut Ctrl+,.
 
 Theme:
 
